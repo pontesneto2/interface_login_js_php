@@ -1,0 +1,62 @@
+    <div class="container">
+      <div class="row main">
+
+        <div class="main-login main-center">
+                  <div class="panel-heading">
+                 <div class="panel-title text-center">
+					 <img class="logo_miniatura" src="/scriptcase/devel/conf/sys/libraries/templates_login_sda/login/img/logo_psj.png" alt="Secretaria do Desenvolvimento Agrário do Ceará">
+                    <h4 style="font-weight: bold;"><font color="#446478" size="3">{lang_sistema_sol}</font></h4>
+                    <hr />
+                  </div>
+              </div> 
+          <form class="form-horizontal" {SC_FORM_ATTR}>
+            <!--SC_FORM_HIDDEN-->
+            <div class="form-group">
+              <label for="username" class="cols-sm-2 control-label"><font color="#446478" size="4"><!--SC_FIELD_LABEL_usuario--></font></label>
+              <div class="cols-sm-10">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                  <input type="text" class="form-control" {SC_FIELD_CLASS}  placeholder="Digite seu Usuário" {SC_FIELD_INFO_usuario}/>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="password" class="cols-sm-2 control-label"><font color="#446478" size="4"><!--SC_FIELD_LABEL_senha--></font></label>
+              <div class="cols-sm-10">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                  <input type="password" class="form-control" {SC_FIELD_CLASS}  placeholder="Digite sua Senha" {SC_FIELD_INFO_senha}/>
+                </div>
+              </div>
+            </div>
+            <div class="form-group" style="margin: 0px;">
+              <label for="username" class="cols-sm-2 control-label"><font color="#446478" size="4"><!--SC_FIELD_LABEL_cmp_idioma--></font></label>
+              <div class="cols-sm-10">
+                <div class="input-group" style="margin: -10px;">
+                    <tr>
+                      <td valign="top">
+                       </td>
+                      </tr>
+                <p>&nbsp;</p>                     
+                <!--  <input type="text" class="form-control" {SC_FIELD_CLASS}  placeholder="Digite seu Usuário" {SC_FIELD_INFO_usuario}/> -->
+                </div>
+              </div>
+            </div>            
+
+            
+                <!--SC_CAPTCHA-->
+                <!--SC_REQUIRED_MSG--> 
+            <div class="form-group ">
+					<input type="submit" {SC_FORM_SUBMIT_CALL} class="btn btn-primary botao btn-rounded btn-floating btn-lg btn-block" value="{lang_btn_login}" />             
+              <p class="text-muted m-t-25 m-b-0 p-0 st" style="color: #446478">{SC_FIELD_INFO_links}</p>                      
+
+             <!-- <button type="button" class="btn btn-primary btn-lg btn-block login-button botao">ACESSAR</button> -->
+            </div>
+            <div class="login-register">
+                  <!-- <a href="reset_password.php"><font color="#446478" size="2">ESQUECI MINHA SENHA</font></a> -->
+                 </div>
+          </form>
+        </div>
+      </div>
+    </div>
