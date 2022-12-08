@@ -1,0 +1,100 @@
+<style type="text/css">
+.logo_miniatura {
+		width: 230px;
+	  }
+.botao {
+    background-color: #446478;
+}
+
+.botao:hover {
+    background-color: #c2c2c2;
+}
+
+body, html{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-color: #dbdbdb;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+h1.title { 
+  font-size: 50px;
+  font-family: 'Passion One', cursive; 
+  font-weight: 400; 
+}
+
+hr{
+  width: 10%;
+  color: #fff;
+}
+
+.form-group{
+  margin-bottom: 15px;
+}
+
+label{
+  margin-bottom: 15px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 16px;
+    padding-top: 3px;
+}
+
+.main-login{
+  background-color: #fff;
+    /* shadows and rounded borders */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.main-center{
+/*   margin-top: 30px;
+  margin: 0 auto;
+  max-width: 330px;
+    padding: 40px 40px; */
+	    width: 440px;
+    height: 620px;
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 5px -10px 20px rgb(0 0 0 / 12%);
+    backdrop-filter: blur(0.6rem);
+    /* -webkit-backdrop-filter: blur(0.1rem); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.login-button{
+  margin-top: 5px;
+}
+
+.login-register{
+  font-size: 11px;
+  text-align: center;
+}
+.img{
+
+      max-width: 75%;
+      
+}
+.panel-heading {
+    margin-bottom: -23px !important;
+}      
+    </style>
